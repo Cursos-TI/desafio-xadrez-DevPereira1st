@@ -8,31 +8,31 @@ int main() {
 
     int torre = 1; //variavel torre
 
-    printf("Torre move: \n");
+    printf("Torre move: \n"); //Indetificação peça
 
-    while (torre <= 5) {
+    while (torre <= 5) { //Torre move 4 vezes para direita
 
-            printf("Direita\n"); //Torre move 5 vezes para direita
+            printf("Direita\n"); //Saída movimento no console
         
-        torre++; //incremento
+        torre++; //+1 incremento 
     }
 
 
-    int bispo = 1;
+    int bispo = 1; //variavel bispo
 
-    printf("\n\nBispo move: \n");
+    printf("\n\nBispo move: \n"); //Indetificação peça
 
     do {
 
-        printf("Cima, Direita \n");
-        bispo++;
+        printf("Cima, Direita \n"); //Saída movimento no console
+        bispo++; //+1 incremento
 
-    } while (bispo <= 5);
+    } while (bispo <= 5); //Bispo move 4 vezes para direita
 
-    printf("\n\nRainha move: \n");
+    printf("\n\nRainha move: \n"); //Indetificação peça
 
-    for (int rainha = 1; rainha <= 8; rainha++) {
-        printf("Esquerda\n");
+    for (int rainha = 1; rainha <= 8; rainha++) { //Declaração variavel, Rainha move 7 vezes para direita, +1 incremento
+        printf("Esquerda\n"); //Saída movimento no console
     }
 
     // Nível Aventureiro - Movimentação do Cavalo
