@@ -35,6 +35,19 @@ int main() {
         printf("Esquerda\n"); //Saída movimento no console
     }
 
+    int cavalo = 0;   
+
+    printf("\n\nCavalo move: \n"); //Indetificação peça
+
+    do {
+        for (int cavalo1 = 0; cavalo1 < 2; cavalo1++) {
+            printf("Baixo \n"); //Saída movimento for no console
+        }
+
+        printf("Esquerda \n"); //Saída movimento dowhile no console
+
+    } while (cavalo++); //incremento
+
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
